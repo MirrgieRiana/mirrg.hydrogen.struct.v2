@@ -1,1 +1,1 @@
-# mirrg.struct.hydrogen.v2
+# mirrg.struct.hydrogen
