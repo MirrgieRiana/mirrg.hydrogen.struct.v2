@@ -21,6 +21,7 @@ dependencies {
 
 	testCompile group: 'junit', name: 'junit', version: '4.+'
 
+	//compile group: 'mirrg', name: 'mirrg.struct.hydrogen', version: '2.0.0'
 	//compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
 	//compile group: 'mirrg', name: 'mirrg.struct.hydrogen-1.0', version: '+'
 
@@ -29,6 +30,7 @@ dependencies {
 // ★追加のリポジトリURL
 def mavenRepositories = [
 
+	//'https://raw.githubusercontent.com/MirrgieRiana/mirrg.struct.hydrogen/master/maven',
 	//'http://hg.pf.osdn.jp/view/t/ta/tacticsrealize/mirrg.struct.hydrogen/raw-file/tip/maven',
 
 ]
