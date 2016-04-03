@@ -128,7 +128,7 @@ uploadArchives {
 
 		if (outputLocation == 'maven') {
 			mavenDeployer {
-				pom.artifactId = project.archivesBaseName + "-" + superversion
+				pom.artifactId = project.archivesBaseName
 				repository(url: 'file://localhost/' + file('../maven').getAbsolutePath())
 			}
 		}
